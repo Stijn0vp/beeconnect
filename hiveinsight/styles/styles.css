@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Bahnschrift";
+}
+
+body {
+    background: url("background.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+}
+
+h1 {
+    color: white;
+}
+
+#btn {
+    margin-left: 10px;
+    background-color: #FFDAB9;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.registration-container,
+.login-container,
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.chart-list,
+.hive-form,
+.hive-list,
+.hive-data {
+    background: #ffffff;
+    backdrop-filter: blur(15px) brightness(80%);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.styled-table th, 
+.styled-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    white-space: pre-line;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+    width: 20%;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
