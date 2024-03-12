@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 <form id="chartForm" action="" method="post">
                     <input type="hidden" name="customer_id" id="customerIdInput">
-                    <input type="hidden" name="arduino_id" id="arduinoIdInput">
+                    <input type="hidden" name="reservation_id" id="arduinoIdInput">
                 </form>
 
                 <ul id=""></ul>
